@@ -4,6 +4,8 @@
 
 Unlock your Android Device Using Tasker and Autoinput use autovoice to type a pin in lockscreen and unlock 🔓 the device using Autovoice and Tasker.
 
+**DEMO:** <https://www.youtube.com/shorts/jy-zjiZh0KE>
+
 ```sh
 
     Task: Pin Unlock 🔓
