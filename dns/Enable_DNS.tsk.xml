@@ -1,0 +1,49 @@
+<TaskerData sr="" dvi="1" tv="6.3.7-beta">
+	<Task sr="task70">
+		<cdate>1715256417300</cdate>
+		<edate>1715259099089</edate>
+		<id>70</id>
+		<nme>Enable DNS</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>235</code>
+			<label>Update Private DNS URL</label>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">private_dns_specifier</Str>
+			<Str sr="arg2" ve="3">%dns</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>235</code>
+			<label>Enable Private DNS</label>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">private_dns_mode</Str>
+			<Str sr="arg2" ve="3">hostname</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<ProfileVariable sr="pv0">
+			<clearout>true</clearout>
+			<exportval></exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd>Enter the DNS URL</pvd>
+			<pvdn>Custom DNS Hostname</pvdn>
+			<pvid>66</pvid>
+			<pvit>t</pvit>
+			<pvn>%dns</pvn>
+			<pvt>t</pvt>
+			<pvv>dns.adguard-dns.com</pvv>
+			<strout>true</strout>
+		</ProfileVariable>
+	</Task>
+</TaskerData>

@@ -1,0 +1,17 @@
+<TaskerData sr="" dvi="1" tv="6.3.7-beta">
+	<Task sr="task67">
+		<cdate>1715256417300</cdate>
+		<edate>1715259702227</edate>
+		<id>67</id>
+		<nme>Disable DNS</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>235</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">private_dns_mode</Str>
+			<Str sr="arg2" ve="3">opportunistic</Str>
+			<Int sr="arg3" val="0"/>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+	</Task>
+</TaskerData>
